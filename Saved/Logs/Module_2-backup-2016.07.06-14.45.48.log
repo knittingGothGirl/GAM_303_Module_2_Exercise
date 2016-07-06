@@ -1,0 +1,714 @@
+﻿[2016.07.06-20.13.55:307][  0]Log file open, 07/06/16 14:13:55
+[2016.07.06-20.13.55:308][  0]LogInit:Display: Running engine for game: Module_2
+[2016.07.06-20.13.55:308][  0]LogInit:Display: RandInit(677221213) SRandInit(677221214).
+[2016.07.06-20.13.55:308][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.06-20.13.55:308][  0]LogStats: Stats thread started at 0.175989
+[2016.07.06-20.13.55:308][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.06-20.13.55:308][  0]LogInit: API Version: 2672455
+[2016.07.06-20.13.55:308][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.06-20.13.55:308][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.06-20.13.55:308][  0]LogInit: Build Configuration: Development
+[2016.07.06-20.13.55:308][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.06-20.13.55:308][  0]LogInit: Command line: -EpicPortal 
+[2016.07.06-20.13.55:308][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.06-20.13.55:308][  0]LogInit: Rocket: 1
+[2016.07.06-20.13.55:338][  0]LogInit: Using libcurl 7.41.0
+[2016.07.06-20.13.55:338][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.06-20.13.55:338][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.06-20.13.55:338][  0]LogInit:  - other features:
+[2016.07.06-20.13.55:338][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.06-20.13.55:338][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.06-20.13.55:338][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.06-20.13.55:338][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.06-20.13.55:338][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.06-20.13.55:338][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.06-20.13.55:338][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.06-20.13.55:338][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.06-20.13.55:338][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.06-20.13.55:338][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.06-20.13.55:365][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.06-20.13.55:394][  0]LogInit: Object subsystem initialized
+[2016.07.06-20.13.55:401][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-20.13.55:401][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.06-20.13.55:449][  0]LogInit: Computer: SHITCAKES
+[2016.07.06-20.13.55:449][  0]LogInit: User: Emily
+[2016.07.06-20.13.55:449][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.06-20.13.55:449][  0]LogInit: High frequency timer resolution =1.754526 MHz
+[2016.07.06-20.13.55:449][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
+[2016.07.06-20.13.55:449][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.06-20.13.55:449][  0]LogMemory: Process Physical Memory: 52.17 MB used, 52.17 MB peak
+[2016.07.06-20.13.55:449][  0]LogMemory: Process Virtual Memory: 54.13 MB used, 54.13 MB peak
+[2016.07.06-20.13.55:449][  0]LogMemory: Physical Memory: 4554.45 MB used, 7103.49 MB total
+[2016.07.06-20.13.55:449][  0]LogMemory: Virtual Memory: 351.09 MB used, 134217728.00 MB total
+[2016.07.06-20.13.55:531][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.06-20.13.58:012][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon(TM) R3 Graphics (Feature Level 11_0)
+[2016.07.06-20.13.58:012][  0]LogD3D11RHI: Adapter has 1005MB of dedicated video memory, 0MB of dedicated system memory, and 3328MB of shared system memory, 1 output[s]
+[2016.07.06-20.13.58:016][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.07.06-20.13.58:016][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.07.06-20.13.58:016][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.06-20.13.58:030][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.06-20.13.58:030][  0]LogRHI: Texture pool is 703 MB (70% of 1005 MB)
+[2016.07.06-20.13.58:044][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.06-20.13.58:062][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Intermediate/Shaders/WorkingDirectory/7160/).
+[2016.07.06-20.13.58:062][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Intermediate/Shaders/tmp/0144911E4CD9EAA66896BB80C87F33BA/'.
+[2016.07.06-20.13.58:063][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.06-20.14.02:075][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.06-20.14.02:094][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.06-20.14.02:114][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.06-20.14.02:133][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.06-20.14.02:151][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.06-20.14.02:172][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.06-20.14.02:185][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.06-20.14.02:198][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.06-20.14.02:211][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.06-20.14.02:225][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.06-20.14.02:238][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.06-20.14.02:252][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.06-20.14.02:255][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.06-20.14.02:292][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.06-20.14.02:304][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.06-20.14.02:317][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.06-20.14.02:333][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.06-20.14.02:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.06-20.14.02:659][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.06-20.14.03:803][  0]LogDerivedDataCache: Loaded boot cache 1.14s 41MB C:/Users/Emily/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.06-20.14.03:803][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Emily/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.06-20.14.03:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.06-20.14.03:804][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.06-20.14.03:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.06-20.14.03:804][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.06-20.14.04:253][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.06-20.14.04:272][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Emily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.06-20.14.05:006][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-20.14.05:017][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.07.06-20.14.05:448][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.06-20.14.05:448][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.06-20.14.06:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.06-20.14.35:646][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.06-20.14.36:337][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
+[2016.07.06-20.14.36:980][  0]SourceControl: Info Source control is disabled
+[2016.07.06-20.14.36:986][  0]SourceControl: Info Source control is disabled
+[2016.07.06-20.14.37:030][  0]SourceControl: Info Source control is disabled
+[2016.07.06-20.14.37:076][  0]SourceControl: Info Source control is disabled
+[2016.07.06-20.14.38:247][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.14.38:585][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.07.06-20.14.38:585][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.07.06-20.14.38:824][  0]LogEngine: Initializing Engine...
+[2016.07.06-20.14.38:833][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.06-20.14.38:836][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.06-20.14.39:307][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.06-20.14.39:322][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-20.14.39:364][  0]LogInit: FAudioDevice initialized.
+[2016.07.06-20.14.39:440][  0]LogDerivedDataCache: Saved boot cache 0.08s 41MB C:/Users/Emily/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.06-20.14.39:707][  0]LogInit: Texture streaming: Enabled
+[2016.07.06-20.14.39:732][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.07.06-20.14.39:732][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.06-20.14.39:733][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId de592b564a38d95539caf8a17c7b852e|2cb0bd1b75434ae4964071df44d5d8c3|d1422b63-4fbc-4514-b599-6c96ee7dccec
+[2016.07.06-20.14.39:733][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.07.06-20.14.39:849][  0]LogInit: Transaction tracking system initialized
+[2016.07.06-20.14.39:950][  0]BlueprintLog: New page: Editor Load
+[2016.07.06-20.14.43:473][  0]LocalizationService: Info Localization service is disabled
+[2016.07.06-20.14.44:410][  0]LogConsoleResponse:Display: 
+[2016.07.06-20.14.44:847][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.06-20.14.45:494][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emily/Documents/Unreal Projects/Module_2/Content/' took 0.01s
+[2016.07.06-20.14.45:494][  0]SourceControl: Info Source control is disabled
+[2016.07.06-20.14.45:499][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2016.07.06-20.14.45:548][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.07.06-20.14.45:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.07.06-20.14.45:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.07.06-20.14.45:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.07.06-20.14.45:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.07.06-20.14.45:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.07.06-20.14.45:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.07.06-20.14.45:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.07.06-20.14.45:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.07.06-20.14.45:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.07.06-20.14.46:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.07.06-20.14.46:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.07.06-20.14.46:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.07.06-20.14.46:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.07.06-20.14.46:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.07.06-20.14.46:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.07.06-20.14.46:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.07.06-20.14.46:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.07.06-20.14.46:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Fire01.uasset"
+[2016.07.06-20.14.46:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.07.06-20.14.46:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.07.06-20.14.46:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.07.06-20.14.46:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Light01.uasset"
+[2016.07.06-20.14.46:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.07.06-20.14.46:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Light02.uasset"
+[2016.07.06-20.14.46:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.07.06-20.14.46:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.07.06-20.14.46:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.07.06-20.14.46:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.07.06-20.14.46:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.07.06-20.14.46:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.07.06-20.14.47:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.07.06-20.14.47:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.07.06-20.14.47:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.07.06-20.14.47:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Steam01.uasset"
+[2016.07.06-20.14.47:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.07.06-20.14.47:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.07.06-20.14.47:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.07.06-20.14.47:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.07.06-20.14.47:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.07.06-20.14.47:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.07.06-20.14.47:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.07.06-20.14.48:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.07.06-20.14.48:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.07.06-20.14.48:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.07.06-20.14.48:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.07.06-20.14.48:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.07.06-20.14.48:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.07.06-20.14.48:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.07.06-20.14.48:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.07.06-20.14.48:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.07.06-20.14.48:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.07.06-20.14.54:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.07.06-20.14.54:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.07.06-20.14.54:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.07.06-20.14.55:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Maps/StarterMap.umap"
+[2016.07.06-20.14.56:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.07.06-20.14.56:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.07.06-20.14.56:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.07.06-20.14.56:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.07.06-20.14.56:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.07.06-20.14.57:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.07.06-20.14.57:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.07.06-20.14.57:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.07.06-20.14.57:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.07.06-20.14.57:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.07.06-20.14.57:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.07.06-20.14.57:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.07.06-20.14.58:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.07.06-20.14.58:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.07.06-20.14.58:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.07.06-20.14.58:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.07.06-20.14.58:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.07.06-20.14.58:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.07.06-20.14.58:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.07.06-20.14.58:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.07.06-20.14.58:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.07.06-20.14.58:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.07.06-20.14.58:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.07.06-20.14.59:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.07.06-20.14.59:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.07.06-20.14.59:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.07.06-20.14.59:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.07.06-20.14.59:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.07.06-20.14.59:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.07.06-20.14.59:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.07.06-20.14.59:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.07.06-20.14.59:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.07.06-20.14.59:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.07.06-20.14.59:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.07.06-20.14.59:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.07.06-20.14.59:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.07.06-20.14.59:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.07.06-20.15.00:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.07.06-20.15.00:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.07.06-20.15.00:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.07.06-20.15.00:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.07.06-20.15.00:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.07.06-20.15.00:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.07.06-20.15.00:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.07.06-20.15.00:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.07.06-20.15.00:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.07.06-20.15.00:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.07.06-20.15.00:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.07.06-20.15.00:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.07.06-20.15.00:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.07.06-20.15.00:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.07.06-20.15.00:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.07.06-20.15.00:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.07.06-20.15.00:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.07.06-20.15.00:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.07.06-20.15.00:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.07.06-20.15.01:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.07.06-20.15.01:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.07.06-20.15.01:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.07.06-20.15.01:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.07.06-20.15.01:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.07.06-20.15.01:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.07.06-20.15.01:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.07.06-20.15.01:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.07.06-20.15.01:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Door.uasset"
+[2016.07.06-20.15.01:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.07.06-20.15.01:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.07.06-20.15.01:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.07.06-20.15.01:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.07.06-20.15.01:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.07.06-20.15.01:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.07.06-20.15.01:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.07.06-20.15.01:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.07.06-20.15.02:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.07.06-20.15.02:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.07.06-20.15.02:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.07.06-20.15.02:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.07.06-20.15.02:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.07.06-20.15.02:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.07.06-20.15.02:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.07.06-20.15.02:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.07.06-20.15.02:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.07.06-20.15.02:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.07.06-20.15.02:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.07.06-20.15.02:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.07.06-20.15.02:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.07.06-20.15.02:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.07.06-20.15.02:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.07.06-20.15.02:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.07.06-20.15.02:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.07.06-20.15.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.07.06-20.15.03:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.07.06-20.15.03:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.07.06-20.15.03:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.07.06-20.15.03:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.07.06-20.15.03:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.07.06-20.15.03:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.07.06-20.15.03:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.07.06-20.15.03:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.07.06-20.15.03:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.07.06-20.15.03:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.07.06-20.15.03:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.07.06-20.15.03:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.07.06-20.15.03:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.07.06-20.15.03:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.07.06-20.15.03:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.07.06-20.15.03:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.07.06-20.15.03:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.07.06-20.15.04:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.07.06-20.15.04:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.07.06-20.15.04:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.07.06-20.15.04:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.07.06-20.15.04:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.07.06-20.15.04:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.07.06-20.15.05:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.07.06-20.15.05:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.07.06-20.15.05:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.07.06-20.15.05:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.07.06-20.15.05:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.07.06-20.15.05:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.07.06-20.15.06:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.07.06-20.15.06:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.07.06-20.15.06:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.07.06-20.15.06:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.07.06-20.15.06:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.07.06-20.15.06:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.07.06-20.15.06:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.07.06-20.15.06:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.07.06-20.15.06:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.07.06-20.15.06:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.07.06-20.15.07:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.07.06-20.15.07:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.07.06-20.15.07:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.07.06-20.15.07:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.07.06-20.15.07:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.07.06-20.15.08:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.07.06-20.15.08:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.07.06-20.15.08:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.07.06-20.15.09:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.07.06-20.15.09:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.07.06-20.15.09:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.07.06-20.15.10:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.07.06-20.15.10:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.07.06-20.15.10:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.07.06-20.15.11:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.07.06-20.15.11:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.07.06-20.15.12:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.07.06-20.15.12:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.07.06-20.15.12:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.07.06-20.15.12:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.07.06-20.15.12:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.07.06-20.15.13:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.07.06-20.15.13:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.07.06-20.15.13:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.07.06-20.15.13:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.07.06-20.15.14:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.07.06-20.15.14:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.07.06-20.15.14:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.07.06-20.15.14:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.07.06-20.15.14:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.07.06-20.15.15:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.07.06-20.15.15:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.07.06-20.15.15:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.07.06-20.15.16:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.07.06-20.15.16:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.07.06-20.15.16:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.07.06-20.15.17:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.07.06-20.15.17:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.07.06-20.15.17:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.07.06-20.15.17:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.07.06-20.15.18:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.07.06-20.15.18:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.07.06-20.15.18:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.07.06-20.15.19:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.07.06-20.15.19:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.07.06-20.15.19:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.07.06-20.15.19:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.07.06-20.15.20:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.07.06-20.15.20:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.07.06-20.15.20:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.07.06-20.15.20:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.07.06-20.15.21:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.07.06-20.15.21:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.07.06-20.15.21:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.07.06-20.15.22:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.07.06-20.15.22:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.07.06-20.15.22:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.07.06-20.15.22:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.07.06-20.15.23:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.07.06-20.15.23:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.07.06-20.15.23:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.07.06-20.15.23:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.07.06-20.15.23:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.07.06-20.15.23:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.07.06-20.15.24:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.07.06-20.15.24:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.07.06-20.15.24:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.07.06-20.15.24:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.07.06-20.15.24:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.07.06-20.15.24:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.07.06-20.15.24:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.07.06-20.15.25:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.07.06-20.15.25:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.07.06-20.15.25:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.07.06-20.15.25:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.07.06-20.15.25:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.07.06-20.15.26:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.07.06-20.15.26:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.07.06-20.15.26:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.07.06-20.15.26:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.07.06-20.15.27:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.07.06-20.15.27:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.07.06-20.15.27:734][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.07.06-20.15.28:196][  0]LogSavePackage: Save=44.337330ms
+[2016.07.06-20.15.28:196][  0]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Floor_400x40013F609714F0A845501A4458BA78101EE.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.07.06-20.15.28:224][  0]LogSavePackage: Total save time: 94.683122ms
+[2016.07.06-20.15.28:224][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.07.06-20.15.28:225][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.07.06-20.15.28:240][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.06-20.15.28:452][  0]LightingResults: New page: Lighting Build
+[2016.07.06-20.15.28:466][  0]MapCheck: New page: Map Check
+[2016.07.06-20.15.28:466][  0]LightingResults: New page: Lighting Build
+[2016.07.06-20.15.28:506][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006CB2BBCE0
+[2016.07.06-20.15.28:522][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:529][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:535][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:789][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:796][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:803][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:806][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:816][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.28:823][  0]LogLinker:Warning: Asset '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.15.35:341][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.06-20.15.36:263][  0]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2016.07.06-20.15.36:265][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.06-20.15.36:708][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 443.101ms to complete.
+[2016.07.06-20.15.36:709][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.469
+[2016.07.06-20.15.37:671][  0]LogCollectionManager: Loaded 0 collections in 0.008883 seconds
+[2016.07.06-20.15.37:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emily/Documents/Unreal Projects/Module_2/Saved/Collections/' took 0.02s
+[2016.07.06-20.15.37:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emily/Documents/Unreal Projects/Module_2/Content/Developers/Emily/Collections/' took 0.01s
+[2016.07.06-20.15.37:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emily/Documents/Unreal Projects/Module_2/Content/Collections/' took 0.01s
+[2016.07.06-20.15.37:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0339 seconds. Added 1868 classes and 335 folders.
+[2016.07.06-20.15.37:783][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.07.06-20.15.37:814][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.07.06-20.15.40:238][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2016.07.06-20.15.40:257][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.06-20.15.40:500][  0]LogLoad: Full Startup: 107.53 seconds (BP compile: 1.99 seconds)
+[2016.07.06-20.15.40:671][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.06-20.15.41:308][  0]LogRenderer: Reallocating scene render targets to support 992x456 (Frame:3).
+[2016.07.06-20.15.45:887][ 15]LogAssetRegistry: Asset discovery search completed in 69.5623 seconds
+[2016.07.06-20.15.45:887][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.07.06-20.15.45:887][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2016.07.06-20.15.53:579][109]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2016.07.06-20.15.54:847][124]Cmd: DELETE
+[2016.07.06-20.15.54:847][124]Cmd: ACTOR DELETE
+[2016.07.06-20.15.54:867][124]LogEditorActor: Deleted Actor: DocumentationActor
+[2016.07.06-20.15.54:968][124]LogEditorActor: Deleted 1 Actors (0.120 secs)
+[2016.07.06-20.15.56:141][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2016.07.06-20.15.56:902][147]Cmd: DELETE
+[2016.07.06-20.15.56:903][147]Cmd: ACTOR DELETE
+[2016.07.06-20.15.56:904][147]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.15.57:037][147]LogEditorActor: Deleted 1 Actors (0.134 secs)
+[2016.07.06-20.15.57:734][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2016.07.06-20.15.57:924][156]Cmd: DELETE
+[2016.07.06-20.15.57:924][156]Cmd: ACTOR DELETE
+[2016.07.06-20.15.57:925][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.15.57:975][156]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2016.07.06-20.15.58:451][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2016.07.06-20.15.59:142][171]Cmd: DELETE
+[2016.07.06-20.15.59:142][171]Cmd: ACTOR DELETE
+[2016.07.06-20.15.59:144][171]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.15.59:275][171]LogEditorActor: Deleted 1 Actors (0.132 secs)
+[2016.07.06-20.15.59:743][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2016.07.06-20.16.00:049][179]Cmd: DELETE
+[2016.07.06-20.16.00:049][179]Cmd: ACTOR DELETE
+[2016.07.06-20.16.00:050][179]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.00:100][179]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2016.07.06-20.16.01:290][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2016.07.06-20.16.01:935][200]Cmd: DELETE
+[2016.07.06-20.16.01:935][200]Cmd: ACTOR DELETE
+[2016.07.06-20.16.01:937][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.02:062][200]LogEditorActor: Deleted 1 Actors (0.126 secs)
+[2016.07.06-20.16.02:524][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2016.07.06-20.16.02:867][208]Cmd: DELETE
+[2016.07.06-20.16.02:867][208]Cmd: ACTOR DELETE
+[2016.07.06-20.16.02:869][208]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.02:913][208]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2016.07.06-20.16.03:427][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.07.06-20.16.03:619][216]Cmd: DELETE
+[2016.07.06-20.16.03:619][216]Cmd: ACTOR DELETE
+[2016.07.06-20.16.03:620][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.03:673][216]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2016.07.06-20.16.04:217][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2016.07.06-20.16.04:414][225]Cmd: DELETE
+[2016.07.06-20.16.04:414][225]Cmd: ACTOR DELETE
+[2016.07.06-20.16.04:415][225]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.04:465][225]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2016.07.06-20.16.05:289][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2016.07.06-20.16.05:512][238]Cmd: DELETE
+[2016.07.06-20.16.05:512][238]Cmd: ACTOR DELETE
+[2016.07.06-20.16.05:513][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.16.05:565][238]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2016.07.06-20.16.07:311][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.16.08:064][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.16.50:950][760]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.07.06-20.16.58:301][827]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-20.17.00:467][827]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 107 classes and 0 folders.
+[2016.07.06-20.17.02:280][827]LogRenderer: Reallocating scene render targets to support 992x720 (Frame:836).
+[2016.07.06-20.18.10:359][160]BlueprintLog: New page: Compile JumpPad
+[2016.07.06-20.18.10:675][160]BlueprintEditorCompileResults: Info [0257.71] Compile of JumpPad successful! [in 316 ms]
+[2016.07.06-20.18.27:804][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpPad" FILE="../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/JumpPad.uasset" SILENT=true
+[2016.07.06-20.18.27:915][271]LogSavePackage: Save=98.129066ms
+[2016.07.06-20.18.27:915][271]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/JumpPad503E5783493AAF72D21072902B180DAB.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/JumpPad.uasset'
+[2016.07.06-20.18.27:931][271]LogSavePackage: Total save time: 115.206614ms
+[2016.07.06-20.18.27:931][271]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/JumpPad.uasset
+[2016.07.06-20.18.39:613][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.18.40:339][371]Cmd: SELECT NONE
+[2016.07.06-20.18.42:752][400]Cmd: TRANSACTION UNDO
+[2016.07.06-20.18.42:752][400]LogEditorTransaction: Undo Select None
+[2016.07.06-20.18.43:597][421]Cmd: TRANSACTION UNDO
+[2016.07.06-20.18.43:597][421]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.18.45:266][434]Cmd: TRANSACTION UNDO
+[2016.07.06-20.18.45:266][434]LogEditorTransaction: Undo Move Actors
+[2016.07.06-20.18.46:926][448]Cmd: TRANSACTION UNDO
+[2016.07.06-20.18.46:926][448]LogEditorTransaction: Undo Change Collision Profile
+[2016.07.06-20.18.47:040][448]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_5:PersistentLevel.JumpPad_C_1.DefaultSceneRoot' cannot be attached to itself. Aborting.
+[2016.07.06-20.18.48:588][462]Cmd: SELECT NONE
+[2016.07.06-20.18.55:595][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.19.04:935][644]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.06-20.19.04:935][644]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.07.06-20.19.04:937][644]LogPlayLevel: [PlayLevel] Compiling JumpPad before play...
+[2016.07.06-20.19.05:094][644]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2016.07.06-20.19.05:244][644]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2016, 8:19:05 AM)
+[2016.07.06-20.19.05:262][644]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.07.06-20.19.05:367][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104314s)
+[2016.07.06-20.19.05:369][644]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.06-20.19.05:369][644]LogPlayLevel: PIE: World Init took: (0.002627s)
+[2016.07.06-20.19.05:370][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.107625s)
+[2016.07.06-20.19.05:465][644]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-20.19.05:500][644]LogInit: FAudioDevice initialized.
+[2016.07.06-20.19.05:888][644]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.06-20.19.06:038][644]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.07.06-14.19.06
+[2016.07.06-20.19.06:038][644]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-20.19.06:048][644]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-20.19.06:074][644]LogWorld: Bringing up level for play took: 0.050881
+[2016.07.06-20.19.06:262][644]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.8
+[2016.07.06-20.19.06:262][644]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.06-20.19.19:788][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.06-20.19.20:087][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.06-20.19.20:253][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006DB9A3420
+[2016.07.06-20.19.27:697][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.19.30:448][945]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.06-20.20.25:325][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.07.06-20.20.26:544][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.07.06-20.20.27:157][502]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall6)
+[2016.07.06-20.20.30:513][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.07.06-20.20.31:727][570]Cmd: DELETE
+[2016.07.06-20.20.31:727][570]Cmd: ACTOR DELETE
+[2016.07.06-20.20.31:730][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.20.31:917][570]LogEditorActor: Deleted 1 Actors (0.189 secs)
+[2016.07.06-20.20.39:863][668]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2016.07.06-20.20.59:994][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.21.11:994][ 28]LogTexture:Display: Building textures: Texture2D_4 (G8)
+[2016.07.06-20.21.21:752][143]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.21:753][143]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.21.22:330][157]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.22:330][157]LogEditorTransaction: Undo Delete Actors
+[2016.07.06-20.21.22:962][171]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.22:962][171]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.21.23:566][177]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.23:566][177]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.07.06-20.21.24:331][186]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.24:331][186]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.21.24:996][194]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.24:996][194]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.21.25:910][205]Cmd: TRANSACTION UNDO
+[2016.07.06-20.21.25:910][205]LogEditorTransaction: Undo Replace component used material
+[2016.07.06-20.21.28:248][232]LogTexture:Display: Building textures: Texture2D_5 (G8)
+[2016.07.06-20.21.47:438][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.07.06-20.21.50:772][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.07.06-20.21.50:956][485]Cmd: DELETE
+[2016.07.06-20.21.50:956][485]Cmd: ACTOR DELETE
+[2016.07.06-20.21.50:957][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.21.51:060][485]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2016.07.06-20.21.52:049][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.22.10:879][821]LogTexture:Display: Building textures: Texture2D_6 (G8)
+[2016.07.06-20.22.20:086][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.07.06-20.22.20:091][925]LogTexture:Display: Building textures: Texture2D_7 (G8)
+[2016.07.06-20.22.46:831][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.22.52:286][218]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust needed to have new flag set bUsedWithLandscape !
+[2016.07.06-20.22.52:385][218]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2016.07.06-20.22.52:644][218]LogMaterial: 0.000290 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-20.22.52:838][218]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.07.06-20.22.53:047][219]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.23.00:764][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.23.01:815][317]Cmd: DELETE
+[2016.07.06-20.23.01:815][317]Cmd: ACTOR DELETE
+[2016.07.06-20.23.01:817][317]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.23.02:029][317]LogEditorActor: Deleted 1 Actors (0.214 secs)
+[2016.07.06-20.23.04:859][348]Cmd: TRANSACTION UNDO
+[2016.07.06-20.23.04:859][348]LogEditorTransaction: Undo Delete Actors
+[2016.07.06-20.23.05:329][350]Cmd: TRANSACTION UNDO
+[2016.07.06-20.23.05:329][350]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.23.06:507][371]Cmd: TRANSACTION UNDO
+[2016.07.06-20.23.06:507][371]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-20.23.10:293][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-20.23.11:175][412]Cmd: DELETE
+[2016.07.06-20.23.11:175][412]Cmd: ACTOR DELETE
+[2016.07.06-20.23.11:177][412]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.06-20.23.11:282][412]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2016.07.06-20.23.20:595][506]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.07.06-20.23.21:901][518]Cmd: DELETE
+[2016.07.06-20.23.21:901][518]Cmd: ACTOR DELETE
+[2016.07.06-20.23.21:903][518]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.07.06-20.23.22:016][518]LogEditorActor: Deleted 1 Actors (0.115 secs)
+[2016.07.06-20.23.23:767][536]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.07.06-20.23.24:243][536]Cmd: DELETE
+[2016.07.06-20.23.24:243][536]Cmd: ACTOR DELETE
+[2016.07.06-20.23.24:244][536]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2016.07.06-20.23.24:357][536]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2016.07.06-20.23.25:821][553]Cmd: TRANSACTION UNDO
+[2016.07.06-20.23.25:821][553]LogEditorTransaction: Undo Delete Actors
+[2016.07.06-20.23.28:659][570]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.07.06-20.24.02:077][855]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.07.06-20.24.02:077][855]LogSynthBenchmark:Display: ===============
+[2016.07.06-20.24.02:077][855]LogSynthBenchmark:Display: Main Processor:
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:          ... 0.574217 s/Run 'RayIntersect'
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:          ... 0.705627 s/Run 'Fractal'
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display: 
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 7
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2016.07.06-20.24.03:357][855]LogSynthBenchmark:Display:   CPU Perf Index 0: 4.5
+[2016.07.06-20.24.03:358][855]LogSynthBenchmark:Display:   CPU Perf Index 1: 4.1
+[2016.07.06-20.24.03:358][855]LogSynthBenchmark:Display:  
+[2016.07.06-20.24.03:358][855]LogSynthBenchmark:Display: Graphics:
+[2016.07.06-20.24.03:358][855]LogSynthBenchmark:Display:   Adapter Name: 'AMD Radeon(TM) R3 Graphics'
+[2016.07.06-20.24.03:358][855]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.07.06-20.24.03:359][855]LogSynthBenchmark:Display:   Vendor Id: 0x1002
+[2016.07.06-20.24.03:359][855]LogSynthBenchmark:Display:   GPU Memory: 1006/0/3328 MB
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:   GPU first test: 0.04s
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:          ... 0.257 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:          ... 0.208 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:          ... 0.195 GigaPix/s, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:          ... 0.698 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2016.07.06-20.24.03:659][855]LogSynthBenchmark:Display:          ... 0.033 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:   GPU second test: 0.37s
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.312 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.243 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.235 GigaPix/s, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.886 GigaPix/s, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.033 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.312 GigaPix/s, Confidence=89% 'ALUHeavyNoise'
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.243 GigaPix/s, Confidence=89% 'TexHeavy'
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.235 GigaPix/s, Confidence=89% 'DepTexHeavy'
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.886 GigaPix/s, Confidence=89% 'FillOnly'
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:          ... 0.033 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display: 
+[2016.07.06-20.24.04:042][855]LogSynthBenchmark:Display:   GPU Perf Index 0: 6.8
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   GPU Perf Index 1: 3.3
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   GPU Perf Index 2: 6.1
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   GPU Perf Index 3: 3.5
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   GPU Perf Index 4: 3.1
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   CPUIndex: 4.5
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:   GPUIndex: 6.8
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display: 
+[2016.07.06-20.24.04:043][855]LogSynthBenchmark:Display:          ... Total Time: 1.965884 sec
+[2016.07.06-20.24.04:048][855]LogContentStreaming: Texture pool size now 200 MB
+[2016.07.06-20.25.58:660][188]LogSavePackage: Save=1388.504883ms
+[2016.07.06-20.25.58:660][188]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/ThirdPersonExampleMap_Auto1E25D6D1C4F2D7A6A816A5DB0D4CCD670.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2016.07.06-20.25.58:667][188]LogSavePackage: Total save time: 1475.231487ms
+[2016.07.06-20.25.58:667][188]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2016.07.06-20.25.58:723][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.649
+[2016.07.06-20.25.58:724][188]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.649
+[2016.07.06-20.25.58:760][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JumpPad] ([1] browsable assets)...
+[2016.07.06-20.25.58:760][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/JumpPad]
+[2016.07.06-20.25.58:760][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpPad" FILE="../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/JumpPad_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.07.06-20.25.58:915][188]LogSavePackage: Save=60.764561ms
+[2016.07.06-20.25.58:915][188]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/JumpPad_Auto16D1BC21343B380F003144BA875E73EF6.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/JumpPad_Auto1.uasset'
+[2016.07.06-20.25.58:928][188]LogSavePackage: Total save time: 160.867378ms
+[2016.07.06-20.25.58:928][188]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/JumpPad_Auto1.uasset
+[2016.07.06-20.25.58:947][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Metal_Rust] ([1] browsable assets)...
+[2016.07.06-20.25.58:949][188]LogRenderer: Reallocating scene render targets to support 992x720 (Frame:5467).
+[2016.07.06-20.25.59:025][188]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust]
+[2016.07.06-20.25.59:025][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Metal_Rust]
+[2016.07.06-20.25.59:176][188]LogSavePackage: Save=86.568680ms
+[2016.07.06-20.25.59:176][188]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/M_Metal_Rust_Auto1F7952F024FFFF22FA3AA7DB2C10CDB7F.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Rust_Auto1.uasset'
+[2016.07.06-20.25.59:182][188]LogSavePackage: Total save time: 139.458749ms
+[2016.07.06-20.25.59:182][188]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Rust_Auto1.uasset
+[2016.07.06-20.25.59:182][188]LogFileHelpers: Auto-saving content packages took 0.440
+[2016.07.06-20.27.01:935][362]LogRenderer: Reallocating scene render targets to support 992x744 (Frame:5683).
+[2016.07.06-20.27.08:118][666]LogRenderer: Reallocating scene render targets to support 1196x744 (Frame:5690).
+[2016.07.06-20.27.26:061][630]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.07.06-20.27.26:680][630]LogSavePackage: Save=766.197815ms
+[2016.07.06-20.27.26:680][630]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/ThirdPersonExampleMap1C6A2FC543444B1FD4A6A6813EE8FC93.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.07.06-20.27.26:706][630]LogSavePackage: Total save time: 798.077658ms
+[2016.07.06-20.27.26:706][630]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.07.06-20.28.39:252][251]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.26:219][356]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.27:305][380]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.37:778][614]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.44:235][760]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.51:169][915]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.29.55:382][  9]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.30.02:190][161]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.30.04:874][220]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.30.07:425][276]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.30.18:389][490]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.07.06-20.30.25:369][643]Cmd: TRANSACTION UNDO
+[2016.07.06-20.30.25:370][643]LogEditorTransaction: Undo Clicking on Actors
+[2016.07.06-20.30.26:134][657]Cmd: TRANSACTION UNDO
+[2016.07.06-20.30.26:134][657]LogEditorTransaction: Undo Set actor location
+[2016.07.06-20.30.27:169][682]Cmd: TRANSACTION UNDO
+[2016.07.06-20.30.27:169][682]LogEditorTransaction: Undo Set actor location
+[2016.07.06-20.30.28:672][709]Cmd: TRANSACTION UNDO
+[2016.07.06-20.30.28:672][709]LogEditorTransaction: Undo Set actor location
+[2016.07.06-20.30.30:581][743]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.07.06-20.30.53:178][246]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.30.58:061][356]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.02:398][453]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.06:561][546]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.09:986][621]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.14:131][712]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.18:511][809]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.23:042][911]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.27:913][ 21]Cmd: UpdateLandscapeEditorData
+[2016.07.06-20.31.29:860][ 64]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.07.06-20.31.39:264][259]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.07.06-20.37.36:420][424]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.07.06-20.37.38:818][424]LogSavePackage: Save=2587.376953ms
+[2016.07.06-20.37.38:818][424]LogSavePackage: Moving '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/ThirdPersonExampleMap_Auto2ACDF2172457720358DA74792D8BA59AB.tmp' to '../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2016.07.06-20.37.38:830][424]LogSavePackage: Total save time: 2672.584504ms
+[2016.07.06-20.37.38:830][424]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2016.07.06-20.37.38:903][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.996
+[2016.07.06-20.37.38:903][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.996
+[2016.07.06-20.37.38:940][424]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JumpPad] ([1] browsable assets)...
+[2016.07.06-20.37.39:020][424]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JumpPad.JumpPad]
+[2016.07.06-20.37.39:020][424]OBJ SavePackage: Finished generating thumbnails for package [/Game/JumpPad]
+[2016.07.06-20.37.39:020][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpPad" FILE="../../../../../../Users/Emily/Documents/Unreal Projects/Module_2/Saved/Autosaves/Game/JumpPad_Auto
